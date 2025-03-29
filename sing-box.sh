@@ -1295,10 +1295,11 @@ EOF
     "dns":{
         "servers":[
             {
+                "tag":"local-dns",
                 "type":"local"
             }
         ],
-        "strategy": "${STRATEGY}"
+        "final":"local-dns"
     }
 }
 EOF

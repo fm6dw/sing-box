@@ -14,7 +14,8 @@
 - [8.Nekobox 设置 shadowTLS 方法](README.md#8nekobox-设置-shadowtls-方法)
 - [9.主体目录文件及说明](README.md#9主体目录文件及说明)
 - [10.鸣谢下列作者的文章和项目](README.md#10鸣谢下列作者的文章和项目)
-- [11.免责声明](README.md#11免责声明)
+- [11.感谢赞助商](README.md#11感谢赞助商)
+- [12.免责声明](README.md#12免责声明)
 
 
 * * *
@@ -163,7 +164,7 @@ bash <(wget -qO- https://raw.githubusercontent.com/fscarmen/sing-box/main/sing-b
   --START_PORT 8881 \
   --PORT_NGINX 60000 \
   --SERVER_IP 123.123.123.123 \
-  --CDN skk.moe\
+  --CDN skk.moe \
   --VMESS_HOST_DOMAIN vmess.test.com \
   --VLESS_HOST_DOMAIN vless.test.com \
   --UUID_CONFIRM 20f7fca4-86e5-4ddf-9eed-24142073d197 \
@@ -183,9 +184,8 @@ bash <(wget -qO- https://raw.githubusercontent.com/fscarmen/sing-box/main/sing-b
   --LANGUAGE c \
   --CHOOSE_PROTOCOLS a \
   --START_PORT 8881 \
-  --PORT_NGINX 60000 \
   --SERVER_IP 123.123.123.123 \
-  --CDN skk.moe\
+  --CDN skk.moe \
   --VMESS_HOST_DOMAIN vmess.test.com \
   --VLESS_HOST_DOMAIN vless.test.com \
   --UUID_CONFIRM 20f7fca4-86e5-4ddf-9eed-24142073d197 \
@@ -205,7 +205,7 @@ bash <(wget -qO- https://raw.githubusercontent.com/fscarmen/sing-box/main/sing-b
   --START_PORT 8881 \
   --PORT_NGINX 60000 \
   --SERVER_IP 123.123.123.123 \
-  --CDN skk.moe\
+  --CDN skk.moe \
   --UUID_CONFIRM 20f7fca4-86e5-4ddf-9eed-24142073d197 \
   --SUBSCRIBE=true \
   --ARGO=true \
@@ -225,7 +225,7 @@ bash <(wget -qO- https://raw.githubusercontent.com/fscarmen/sing-box/main/sing-b
   --START_PORT 8881 \
   --PORT_NGINX 60000 \
   --SERVER_IP 123.123.123.123 \
-  --CDN skk.moe\
+  --CDN skk.moe \
   --UUID_CONFIRM 20f7fca4-86e5-4ddf-9eed-24142073d197 \
   --ARGO=true \
   --PORT_HOPPING_RANGE 50000:51000 \
@@ -244,7 +244,7 @@ bash <(wget -qO- https://raw.githubusercontent.com/fscarmen/sing-box/main/sing-b
   --START_PORT 8881 \
   --PORT_NGINX 60000 \
   --SERVER_IP 123.123.123.123 \
-  --CDN skk.moe\
+  --CDN skk.moe \
   --UUID_CONFIRM 20f7fca4-86e5-4ddf-9eed-24142073d197 \
   --SUBSCRIBE=true \
   --ARGO=true \
@@ -266,7 +266,7 @@ bash <(wget -qO- https://raw.githubusercontent.com/fscarmen/sing-box/main/sing-b
   --START_PORT 8881 \
   --PORT_NGINX 60000 \
   --SERVER_IP 123.123.123.123 \
-  --CDN skk.moe\
+  --CDN skk.moe \
   --UUID_CONFIRM 20f7fca4-86e5-4ddf-9eed-24142073d197 \
   --ARGO=true \
   --ARGO_DOMAIN=sb.argo.com \
@@ -287,7 +287,7 @@ bash <(wget -qO- https://raw.githubusercontent.com/fscarmen/sing-box/main/sing-b
   --START_PORT 8881 \
   --PORT_NGINX 60000 \
   --SERVER_IP 123.123.123.123 \
-  --CDN skk.moe\
+  --CDN skk.moe \
   --UUID_CONFIRM 20f7fca4-86e5-4ddf-9eed-24142073d197 \
   --SUBSCRIBE=true \
   --ARGO=true \
@@ -309,7 +309,7 @@ bash <(wget -qO- https://raw.githubusercontent.com/fscarmen/sing-box/main/sing-b
   --START_PORT 8881 \
   --PORT_NGINX 60000 \
   --SERVER_IP 123.123.123.123 \
-  --CDN skk.moe\
+  --CDN skk.moe \
   --UUID_CONFIRM 20f7fca4-86e5-4ddf-9eed-24142073d197 \
   --ARGO=true \
   --ARGO_DOMAIN=sb.argo.com \
@@ -561,6 +561,28 @@ services:
 千歌 sing-box 模板: https://github.com/chika0801/sing-box-examples  
 
 
-## 11.免责声明:
+## 11.感谢赞助商
+
+### 🚀 Sponsored by SharonNetworks
+
+<a href="https://sharon.io/">
+  <img src="https://framerusercontent.com/assets/3bMljdaUFNDFvMzdG9S0NjYmhSY.png" width="30%" alt="sharon.io">
+</a>
+
+本项目的构建与发布环境由 SharonNetworks 提供支持 —— 专注亚太顶级回国优化线路，高带宽、低延迟直连中国大陆，内置强大高防 DDoS 清洗能力。
+
+SharonNetworks 为您的业务起飞保驾护航！
+
+#### ✨ 服务优势
+
+* 亚太三网回程优化直连中国大陆，下载快到飞起
+* 超大带宽 + 抗攻击清洗服务，保障业务安全稳定
+* 多节点覆盖（香港、新加坡、日本、台湾、韩国）
+* 高防护力、高速网络；港/日/新 CDN 即将上线
+
+想体验同款构建环境？欢迎 [访问 Sharon 官网](https://sharon.io) 或 [加入 Telegram 群组](https://t.me/SharonNetwork) 了解更多并申请赞助。
+
+
+## 12.免责声明:
 * 本程序仅供学习了解, 非盈利目的，请于下载后 24 小时内删除, 不得用作任何商业用途, 文字、数据及图片均有所属版权, 如转载须注明来源。
 * 使用本程序必循遵守部署免责声明。使用本程序必循遵守部署服务器所在地、所在国家和用户所在国家的法律法规, 程序作者不对使用者任何不当行为负责。
